@@ -30,11 +30,10 @@ graph LR
     B --> C[Residual U-Net]
     C --> D[DSC Validation]
     D --> E[Test-Set Evaluation]
-
+```
 ```
 Installation
 Clone repository:
-
 bash
 git clone https://github.com/yourusername/retinal-exudate-segmentation.git
 cd retinal-exudate-segmentation
@@ -42,7 +41,8 @@ Install dependencies:
 
 bash
 pip install -r requirements.txt
-
+```
+```
 2. Prepare Dataset Structure
 Create this exact folder structure in your repository root:
 hard_exudate/
@@ -54,3 +54,4 @@ hard_exudate/
     ├── image_001.png
     ├── image_002.png
     └── ... (corresponding binary masks)
+```
