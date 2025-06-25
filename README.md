@@ -31,10 +31,9 @@ graph LR
     C --> D[DSC Validation]
     D --> E[Test-Set Evaluation]
 ```
+## Installation / Clone repository /bash
+
 ```
-Installation
-Clone repository:
-bash
 git clone https://github.com/yourusername/retinal-exudate-segmentation.git
 cd retinal-exudate-segmentation
 Install dependencies:
